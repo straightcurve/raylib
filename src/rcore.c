@@ -1680,6 +1680,12 @@ void *GetWindowHandle(void)
     return NULL;
 }
 
+// Get core window handle
+void *GetCoreWindowHandle(void)
+{
+    return CORE.Window.handle;
+}
+
 // Get number of monitors
 int GetMonitorCount(void)
 {
